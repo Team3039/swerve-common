@@ -1,4 +1,4 @@
-# FRC Team 3039 Swerve code repository
+# FRC Team 3039 Swerve Code repository
 
 This repository contains code that is shared between applications and robots
 that are created by FRC Team 3039, Wildcat Robotics.
