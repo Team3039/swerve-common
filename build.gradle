@@ -1,6 +1,7 @@
 plugins {
     id "java"
     id "edu.wpi.first.GradleRIO" version "2021.3.1"
+    id "maven-publish"
 }
 
 sourceCompatibility = JavaVersion.VERSION_11
@@ -68,6 +69,20 @@ dependencies {
 sim {
     // Sets the websocket client remote host.
     // envVar "HALSIMWS_HOST", "10.0.0.2"
+}
+
+publishing {
+
+  repositories {
+    maven {
+      name = "OSSRH"
+      url = "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+      credentials {
+        username = System.getenv("MAVEN_USERNAME")
+        password = System.getenv("MAVEN_PASSWORD")
+      }
+    }
+  }
 }
 
 // Setting up my Jar File. In this case, adding all libraries into the main jar ('fat jar')
