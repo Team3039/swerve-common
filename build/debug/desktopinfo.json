@@ -1,0 +1,13 @@
+[
+  {
+    "name": "2021-Offseason-MisatoSwerve (in project 2021-Offseason-MisatoSwerve)",
+    "file": "/Users/bodhaanshravipati/Documents/GitHub/2021-Offseason-MisatoSwerve/build/libs/2021-Offseason-MisatoSwerve.jar",
+    "extensions": [
+      "/Users/bodhaanshravipati/Documents/GitHub/2021-Offseason-MisatoSwerve/build/tmp/expandedArchives/halsim_gui-2021.3.1-osxx86-64.zip_0a2506ae8abe4d48a2f11205f0a78349/osx/x86-64/shared/libhalsim_gui.dylib",
+      "/Users/bodhaanshravipati/Documents/GitHub/2021-Offseason-MisatoSwerve/build/tmp/expandedArchives/halsim_ds_socket-2021.3.1-osxx86-64.zip_622bf5d5135ea064f6c332f5c8bd1ba4/osx/x86-64/shared/libhalsim_ds_socket.dylib"
+    ],
+    "env": {},
+    "librarydir": "/Users/bodhaanshravipati/Documents/GitHub/2021-Offseason-MisatoSwerve/build/tmp/jniExtractDir",
+    "mainclass": "frc.robot.Main"
+  }
+]
