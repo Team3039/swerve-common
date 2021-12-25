@@ -6,6 +6,9 @@ plugins {
 
 group = "org.team3039.swerve-common"
 
+gpr.usr = "BodhaanshRavipati325"
+gpr.key = "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"
+
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
