@@ -72,17 +72,21 @@ sim {
 }
 
 publishing {
-
-  repositories {
-    maven {
-      name = "OSSRH"
-      url = "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-      credentials {
-        username = System.getenv("MAVEN_USERNAME")
-        password = System.getenv("MAVEN_PASSWORD")
-      }
+    repositories {
+        maven {
+            name = "Swerve-Common"
+            url = uri("https://maven.pkg.github.com/Team3039/swerve-common")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("BodhaanshRavipati325")
+                password = project.findProperty("gpr.key") ?: System.getenv("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")
+            }
+        }
     }
-  }
+    publications {
+        gpr(MavenPublication) {
+            from(components.java)
+        }
+    }
 }
 
 // Setting up my Jar File. In this case, adding all libraries into the main jar ('fat jar')
