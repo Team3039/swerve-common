@@ -74,7 +74,7 @@ sim {
 publishing {
     repositories {
         maven {
-            name = "Swerve-Common"
+            name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/Team3039/swerve-common")
             credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("BodhaanshRavipati325")
